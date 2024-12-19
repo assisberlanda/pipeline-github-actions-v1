@@ -17,7 +17,7 @@ terraform {
     resource_group_name  = "rg-terraform-state"
     storage_account_name = "danielgilterraformstate"
     container_name       = "remote-state"
-    key                  = "pipeline-azure-devops/terraform.tfstate"
+    key                  = "pipeline-github/terraform.tfstate"
   }
 }
 
