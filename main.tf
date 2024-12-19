@@ -15,7 +15,7 @@ terraform {
 
   backend "azurerm" {
     resource_group_name  = "rg-terraform-state"
-    storage_account_name = "danielgilterraformstate"
+    storage_account_name = "assisberlandaterrastate"
     container_name       = "remote-state"
     key                  = "pipeline-github/terraform.tfstate"
   }
